@@ -308,7 +308,6 @@ template {
   .table td,
   .table th {
     background-color: #fff !important;
-
   }
 
   .table-bordered th,
@@ -2079,7 +2078,7 @@ pre code {
 }
 
 .table {
-  width: 100%;
+  width: 95%;
   max-width: 100%;
   margin-bottom: 1rem; 
 }
