@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Exercício Aula Daniel Gatti</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>
+						Exercício
+					</h2>
+					<p>
+						Numa pesquisa realizada sobre o número de estabelecimentos em uma cidade, sendo organizados por tipos e regiões, os pesquisadores compilaram os dados e obtiveram a seguinte tabela:
+					</p><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<form role="form" name="formulario" id="formulario">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="checkbox">
+									<h4>Tipo de Estabelecimento: </h4><br>
+									<label>
+										<input type="radio" name="estabelecimento" value="p"> Padaria 
+									</label>&nbsp;
+									<label>
+										<input type="radio" name="estabelecimento" value="f"> Farmácia
+									</label>&nbsp;
+									<label>
+										<input type="radio" name="estabelecimento" value="e"> Escola
+									</label>&nbsp;
+									<label>
+										<input type="radio" name="estabelecimento" value="p"> Petshop
+									</label>&nbsp;
+								</div> 
+							</div>
+							<div class="col-md-6">
+								<div class="checkbox">
+									<h4>Região da Cidade: </h4><br>
+									<label>
+										<input type="radio" name="regiao" value="n"> Norte
+									</label>&nbsp;
+									<label>
+										<input type="radio" name="regiao" value="s"> Sul
+									</label>&nbsp;
+									<label>
+										<input type="radio" name="regiao" value="l"> Leste
+									</label>&nbsp;
+									<label>
+										<input type="radio" name="regiao" value="o"> Oeste
+									</label>&nbsp;
+									<label>
+										<input type="radio" name="regiao" value="c"> Centro
+									</label>
+								</div> 
+							</div>
+							<br>
+						</div>
+						<div class="form-group">
+							 
+							<label for="exampleInputEmail1">
+								Quantidade de Estabelecimentos na Região:
+							</label>
+							<input type="number" class="form-control" id="exampleInputEmail1">
+						</div>
+						<button type="submit" form="formulario" class="btn btn-primary">
+							Inserir Valor
+						</button>
+					</form>
+				</div>
+				<div class="col-md-6">
+					<h4>Tabela 1: Estabelecimentos por Região</h4><br>
+					<table class="table">
+						<thead>
+							<tr>
+								<th rowspan=2 class="table-active">
+									Estabelecimento
+								</th>
+								<th colspan=5 class="table-active">
+									Região
+								</th>
+							</tr>
+							<tr>
+								<th class="table-active">
+									Norte
+								</th>
+								<th class="table-active">
+									Sul
+								</th>
+								<th class="table-active">
+									Leste
+								</th>
+								<th class="table-active">
+									Oeste
+								</th>
+								<th class="table-active">
+									Centro
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th class="table-active">
+									Padaria
+								</th>
+								<td>
+									2
+								</td>
+								<td>
+									2
+								</td>
+								<td>
+									4
+								</td>
+								<td>
+									3
+								</td>
+								<td>
+									1
+								</td>
+							</tr>
+							<tr>
+								<th class="table-active">
+									Farmácia
+								</th>
+								<td>
+									3
+								</td>
+								<td>
+									3
+								</td>
+								<td>
+									2
+								</td>
+								<td>
+									4
+								</td>
+								<td>
+									3
+								</td>
+							</tr>
+							<tr>
+								<th class="table-active">
+									Escola
+								</th>
+								<td>
+									2
+								</td>
+								<td>
+									1
+								</td>
+								<td>
+									3
+								</td>
+								<td>
+									2
+								</td>
+								<td>
+									1
+								</td>
+							</tr>
+							<tr>
+								<th class="table-active">
+									Petshop
+								</th>
+								<td>
+									5
+								</td>
+								<td>
+									5
+								</td>
+								<td>
+									5
+								</td>
+								<td>
+									5
+								</td>
+								<td>
+									5
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
